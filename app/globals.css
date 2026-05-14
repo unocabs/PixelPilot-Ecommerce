@@ -161,13 +161,19 @@ button {
 .floatingCart {
   position: absolute;
   right: -18px;
-  bottom: 28px;
-  width: min(260px, 68%);
+  top: 28px;
+  width: min(260px, 60%);
   padding: 18px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.floatingCart:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 30px 80px rgba(11, 13, 18, 0.16);
 }
 
 .floatingCart span {

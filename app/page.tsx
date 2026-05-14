@@ -16,7 +16,7 @@ export default function HomePage() {
             <strong>Light layers for city days.</strong>
           </div>
           <Link href="/products" className="floatingCart">
-            <span>Shop the edit</span>
+            <span>View all products →</span>
             <strong>16 pieces · from ₱550</strong>
           </Link>
         </Reveal>
